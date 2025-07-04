@@ -1,19 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body>
-    <header>
+
+<body class="open-sans-normal">
+    <header class="header secondary-bg">
+        <nav>
+            <h3 class="nav-title">Byz<span class="text-primary">i</span>d</h3>
+            <ul>
+                <li><a class="dark-2" href="">Portfolio</a></li>
+                <li><a class="dark-2" href="">Blog</a></li>
+                <li><a href=""><button class="btn-primary">Hire me</button></a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greetings dark-2">Hi, I am</h4>
+                <h1 class="banner-title">Byzid Bostami</h1>
+                <p class="banner-description">I'm a professional web developer.I've three year experience in this field
+                </p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact</button>
+
+            </div>
+            <img class="banner-profile-pic" src="images/Byzid..jpg" alt="">
+
+
+        </div>
+
 
     </header>
     <main>
+        <section class="about secondary-bg">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">
+                Hi! I'm learning web development and love building simple websites. I'm exploring HTML, CSS, JavaScript,
+                and plan to dive into backend development soon.Aspiring web developer with hands-on experience in HTML,
+                CSS, and JavaScript. Currently expanding skills toward full-stack development with a focus on backend
+                technologies.
+
+
+
+            </p>
+            <div class="about-items">
+                <div class="about-item">
+                    <p class="item-title">Name</p>
+                    <p class="item-description">Byzid Bostami</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Email</p>
+                    <p class="item-description">mbyzidbostami@gmail.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Date of birth</p>
+                    <p class="item-description">Jan 01,2003</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">From</p>
+                    <p class="item-description">Chittagong,Bangladesh</p>
+                </div>
+            </div>
+        </section>
+        <!-- what I do start section -->
+        <section class="skills">
+            <h3 class="section-title text-centre">What I do</h3>
+            <p class="section-description text-centre">I'm a web development enthusiast and a Statistics student. I also
+                work as a tutor, balancing study and skill-building as I grow into a better developer.</p>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <h4 class="skill-title">Vanilla JavaScript</h4>
+                    <p class="skill-description">JavaScript is a popular programming language used to create interactive
+                        features on websites like forms, buttons, and animations. It works on both the front-end and
+                        back-end.</p>
+
+                </div>
+                <div class="skill">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h4 class="skill-title">NodeJS</h4>
+                    <p class="skill-description">Node.js is a runtime environment that lets you run JavaScript on the
+                        server side. It’s used to build fast and scalable web applications.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h4 class="skill-title">MongoBD</h4>
+                    <p class="skill-description">MongoDB is a NoSQL database that stores data in flexible, JSON-like
+                        documents. It’s widely used in modern web development for its speed and scalability.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/react.png" alt="">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-description">React is a JavaScript library for building user interfaces. It's
+                        component-based and great for creating dynamic single-page applications (SPAs).</p>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="resume">
+            <h3 class="section-title text-centre">A summery of my resume</h3>
+            <div class="resume-container">
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Education</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Bachelor of Science in Statistics</h4>
+                        <h5 class="experience-sub-title">University of University of Chittagong
+2019 – 2023</h5>
+                        <div class="experience-description">Completed 13+ courses per semester, built a strong foundation in statistical methods and data analysis. CGPA: 3.00</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Higher Secondary Certificate (HSC)</h4>
+                        <h5 class="experience-sub-title">ABC College, Dhaka
+2017 – 2019</h5>
+                        <div class="experience-description">Focused on Science (Mathematics & ICT), developed early interest in data and programming.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Secondary School Certificate (SSC)</h4>
+                        <h5 class="experience-sub-title">XYZ High School
+2015 – 2017</h5>
+                        <div class="experience-description">Achieved strong academic results, participated in science fairs and math competitions.</div>
+                    </div>
+                </div>
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Experience</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Private Tutor (Mathematics & Statistics)</h4>
+                        <h5 class="experience-sub-title">Dhaka, Bangladesh
+2022 – Present</h5>
+                        <div class="experience-description">Helped students improve academic performance; developed personalized lesson plans for different learning styles.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Web Development Intern</h4>
+                        <h5 class="experience-sub-title">Freelance Projects
+2023 – Present</h5>
+                        <div class="experience-description">Built and deployed responsive websites using HTML, CSS, JavaScript, React; worked on client customization requests.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Student Group Leader</h4>
+                        <h5 class="experience-sub-title">University Projects
+2021 – 2023</h5>
+                        <div class="experience-description">Led group presentations, organized project timelines, delegated tasks, and ensured timely submissions.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-centre">
+                <div class="btn-primary">Download CV</div>
+            </div>
+        </section>
 
     </main>
-    <footer>
-        
+    <footer class="secondary-bg">
+        <div class="footer-column">
+                    <h3 class="section-title">Let's connect</h3>
+        <p>I'm a statistics student at university of Chittagong and I'm searching for job in this platform as soon as possible</p>
+        <a href=""><img src="images/icons/facebook.png" alt=""></a>
+        <a href=""><img src="images/icons/twitter.png" alt=""></a>
+        <a href=""><img src="images/icons/insta.png" alt=""></a>
+        </div>
+
+        <div class="footer-column">
+            <h3 class="section-title">Let's inbox me</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your name">
+                <input type="email" name="" id="" placeholder="Your email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input class="btn-primary" type="submit" value="Submit">
+            </form>
+
+        </div>
     </footer>
 </body>
+
 </html>
